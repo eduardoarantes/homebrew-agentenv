@@ -1,25 +1,25 @@
 class Agentenv < Formula
   desc "Project-scoped AI agent and plugin environment manager"
   homepage "https://github.com/eduardoarantes/agentenv"
-  version "0.3.1"
+  version "0.4.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.3.1/agentenv-aarch64-apple-darwin.tar.xz"
-      sha256 "87d6d1aa0bed617046d4d44007430a0bf01956106889ae30f82e523eb16c5f82"
+      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.4.0/agentenv-aarch64-apple-darwin.tar.xz"
+      sha256 "471602f241f1d5bca08a70878a0a5a5deb20c6eed5c631992331e00cbedc4cac"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.3.1/agentenv-x86_64-apple-darwin.tar.xz"
-      sha256 "ab3c31c5ee5227debf4b12e9b27a74adddfb998fa4ffbb24798708277df94b5c"
+      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.4.0/agentenv-x86_64-apple-darwin.tar.xz"
+      sha256 "a5505997a2c24fe1d58c9ea522c07318fb7488278223daa8300d1b8582bc4b04"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.3.1/agentenv-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "12924d4aff6716269e6c7c82fd3f2e0600d876a88b4fadd34966f5c660783516"
+      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.4.0/agentenv-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "a061983c226a398f2ef677063ecc29e181954b817526b42d992eb92edaae188b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.3.1/agentenv-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "6a5f545245cfc1cb447cc18f8c35d082c4a82a68de6080af2a81f0f2a929df20"
+      url "https://github.com/eduardoarantes/agentenv/releases/download/v0.4.0/agentenv-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "21e6422d8014667203914272a0a475443071a4d5314b4726977e366d09e57ad4"
     end
   end
   license "MIT"
